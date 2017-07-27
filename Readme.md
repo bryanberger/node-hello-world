@@ -6,8 +6,10 @@
 - The `start` folder is empty, to be used when demonstrating the steps.
 - The `finish` folder contains a finished example to reference.
 
-### Dependencies
-`GA Patterns v1.0.9` found here https://s3.amazonaws.com/ga-patterns/1.0.9/universal-kit.css
+### Dependencies & Tools
+- Install [Node.js](https://nodejs.org/en/download/)
+- Install a text editor like [Atom](http://atom.io)
+- `GA Patterns v1.0.9` found here https://s3.amazonaws.com/ga-patterns/1.0.9/universal-kit.css
 
 ### Steps to create the finished product
 #### The index.html
