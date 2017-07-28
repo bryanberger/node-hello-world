@@ -37,7 +37,7 @@
 4. paste `web: npm start` and save it
 5. type `heroku apps:create` to add heroku as a git remote
 
-Since our server is not located in the route directory you will have to push just the `start` branch to heroku using `git subtree push --prefix start heroku master`
+Since our server is not located in the root directory you will have to push just the `start` branch to heroku using `git subtree push --prefix start heroku master`
 
 ### Test
 To test make sure you are in the `start` directory and run `npm start`
