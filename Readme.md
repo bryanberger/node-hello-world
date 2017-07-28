@@ -30,6 +30,15 @@
 #### The package.json
 1. Add a start script to the `"scripts": {}` block within `package.json` with `"start": "node index.js",`
 
+#### (Bonus) Push to heroku
+1. create a [heroku account](https://signup.heroku.com/)
+2. install the [heroku cli tool](https://devcenter.heroku.com/articles/heroku-cli)
+3. create a file named `Procfile` in the `start` directory
+4. paste `web: npm start` and save it
+5. type `heroku apps:create` to add heroku as a git remote
+
+Since our server is not located in the route branch you will have to push just the `start` branch to heroku using `git subtree push --prefix start heroku master`
+
 ### Test
 To test make sure you are in the `start` directory and run `npm start`
 
