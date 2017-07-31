@@ -48,3 +48,11 @@ To run the finished example type:
 cd finish
 npm start
 ```
+
+### Resources
+- https://nodejs.org/en/docs/
+- https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm
+- http://thibaultlaurens.github.io/javascript/2013/04/29/how-the-v8-engine-works/
+- https://electron.atom.io/
+- https://nodejs.org/en/download/
+- https://brew.sh/
